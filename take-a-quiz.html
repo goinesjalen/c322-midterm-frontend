@@ -24,7 +24,7 @@
   </div>
 
   <script>
-    let host = "http://localhost:8080";
+    let host = "https://c322-midterm-backend-latest-wajj.onrender.com";
     let quizzes = [];
     let quiz = {};
     let answers = [];
@@ -96,7 +96,7 @@
       let id = quiz.questions[questionNum].id;
       let innerHtml = `
 
-      <img src="http://localhost:8080/questions/${id}/image" alt="question" style="width:100%">
+      <img src="https://c322-midterm-backend-latest-wajj.onrender.com/questions/${id}/image" alt="question" style="width:100%">
       <div class="container">
         <h4><b>${id}</b></h4> 
         <p>${quiz.questions[questionNum].description}</p>
